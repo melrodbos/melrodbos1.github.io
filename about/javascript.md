@@ -7,8 +7,8 @@
  - `String.`: Text. 
 
 ## Special Constants
- - `Infinity`:
- - `NaN`:
+ - `Infinity`: Numeric value representing infinity. 
+ - `NaN`: Not-a-Number. [A value that can not be represented.] (https://developer.mozilla.org/en-US/search?q=Nan+meaning)
  - `undefined`: Is a top level property whose value is [undefined] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Basics). 
 
 ## Basic Operators 
