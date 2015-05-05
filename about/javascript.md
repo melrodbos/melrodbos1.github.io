@@ -4,7 +4,7 @@
  - `null.`: Special keyword denoting a null or empty value. 
  - `Boolean.`: `true` or `false`.
  - `Number.`: A numeric value. 
- - `String.`: Text. 
+ - `String.`: Text. A sequence of characters.
 
 ## Special Constants
  - `Infinity`: Numeric value representing infinity. 
@@ -30,4 +30,3 @@
   - `var`
   - `=`
   - `+=`
-  - 
