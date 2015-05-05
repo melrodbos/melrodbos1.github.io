@@ -2,13 +2,13 @@
 #### [Essay Outline] (https://www.tacoma.uw.edu/sites/default/files/global/documents/library/essay_outline_worksheet.pdf) 
 
 ### I. Introduction:
-- General info about topic, reason for reader to be interested, context, etc.
+- What is a fixed and a growth mindset. The now vs the Yet. 
 
 ## Thesis statement:
 
 ### II. [*You Can Learn Anything*] (https://www.khanacademy.org/youcanlearnanything) 
   - Intelligence is conditioned to context, surroundings, upbringing, nurturing...
-  - Practice makes perfect.
+  - Practice makes perfect...
 
 #### A. Support
 1. Detail/example/data/explanation
