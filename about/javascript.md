@@ -21,10 +21,14 @@
   - `--`: Unary operator. Subtracts one from its operand. 
 
 ### Comparison
- - `<`: Less than operator.
- - `>`: Greater than operator.
- - `<=`: Less than or equal operator. 
- - `>=`: Greater than or equal operator.
+ - `<`: Less than operator. Returns true if the left operand is less than the right operand.
+ - `>`: Greater than operator. Returns true if the left operand is greater than the right operand.
+ - `<=`: Less than or equal operator. Returns true if the left operand is less than or equal to the right operand.
+ - `>=`: Greater than or equal operator. Returns true if the left operand is greater than or equal to the right operand.
+ - `==`: Equal. Returns true if the operands are equal.
+ - `!=`: Not equal. Returns true if the operands are not equal.
+ - `!==`: Strict not equal. Returns true if the operands are not equal and/or not of the same type.
+ - `===`: Strict equal. Returns true if the operands are equal and of the same type.
 
 ### Assignment
   - `var`
