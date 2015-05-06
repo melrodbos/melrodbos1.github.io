@@ -34,3 +34,19 @@
 - *"An assignment operator assigns a value to its left operand based on the value of its right operand. The simple assignment operator is equal (=), which assigns the value of its right operand to its left operand. That is, x = y assigns the value of y to x."*
   - `=`: 
   - `+=`: 
+
+### JavaScript Functions
+*JavaScript functions are defined with the function keyword.* 
+ - Example: Reference: (https://gist.github.com/2f0c3f39d0e5677395d3)
+ ```
+// function definition
+function addition(a, b /* paramters go here */){
+  // function body
+  return a + b;
+}
+ 
+// function invocation
+addition(3, 6 /* arguments go here */); // yields 9
+addition(4, 7); // yields 11
+addition(3, 18); // yields 21
+```
