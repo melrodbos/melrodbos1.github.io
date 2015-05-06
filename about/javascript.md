@@ -31,6 +31,6 @@
  - `===`: Strict equal. Returns true if the operands are equal and of the same type.
 
 ### Assignment
-  - `var`
-  - `=`
-  - `+=`
+- *"An assignment operator assigns a value to its left operand based on the value of its right operand. The simple assignment operator is equal (=), which assigns the value of its right operand to its left operand. That is, x = y assigns the value of y to x."*
+  - `=`: 
+  - `+=`: 
