@@ -1,3 +1,7 @@
+---
+
+---
+
 # Growth vs Fixed Mindset
 #### [Essay Outline] (https://www.tacoma.uw.edu/sites/default/files/global/documents/library/essay_outline_worksheet.pdf) 
 
