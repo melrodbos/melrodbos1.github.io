@@ -104,6 +104,11 @@ ___
 
 What is a fixed midset? What is a growth mindset? Am I stuck in one mindset? Or is my brain switching from a fixed mindset to a growth mindset periodically? According to Dr. Carol Dwek, a fixed mindset is commonly assosiated to nature, with the *wildly* popular believe (my self partly included for a period of time) that people that perform smartly given new challenges are just naturally born smart to begin with. Now, on the other hand, the concept of a growth mindset expands on the *proven fact* (Dr. Carol Dwek extensive research with students) that people are born with the same learning capabilities and it is by the power of suggestion, positive reinforcement and a nurturing positive attitude towards the unknown, that people thrive. In Dr. Carol Dwek own words ([see video reference here](https://youtu.be/wh0OS4MrN3E)), "a growth mindset is when students believe their abilities can be developed".
 
+Lets think for a moment and sit on the idea that that we are actually born smart. With all the eye/ mind opening information that I have been listening from Dr. Dwek, just the thought of believing in the concept of traceable intelligence through the genetic pool seems dooming. I am doomed! Coursed! Subjected to a life of fear, insecurity and seclusion. With a fixed mindset we only focus on results, on meeting everyone elses expectations. We end up having absolutely no regard for our own self or others. It is with great sadness that I admit I am guilty of suffering of massive peer pressure for more that I can remember. Lets change that now.
+
+
+
+
 
 
 
