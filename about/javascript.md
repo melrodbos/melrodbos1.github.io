@@ -65,3 +65,15 @@ addition(3, 18); // yields 21
   - `typeof 3.14 === 'number';`
   - `typeof Math.LN2 === 'number';`
   - `typeof Infinity === 'number'`
+
+### Array
+*An array is a list. Arrays are list-like objects whose prototype has methods to perform traversal and mutation operations. 
+- Examples:
+ - 
+### Length
+
+### Array.prototype methods
+- `[Array.prototype.pop()]` (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
+*Removes the last element from an array and returns that element.*
+- `[Array.prototype.splice()]` (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
+*Adds and/or removes elements from an array.*
