@@ -50,6 +50,7 @@ addition(3, 6 /* arguments go here */); // yields 9
 addition(4, 7); // yields 11
 addition(3, 18); // yields 21
 ```
+
 ### Typeof
 *The typeof operator determines the type of a given object.*
 - the `typeof` operator is followed by its operand.
@@ -66,10 +67,20 @@ addition(3, 18); // yields 21
   - `typeof Math.LN2 === 'number';`
   - `typeof Infinity === 'number'`
 
-### Array
-*An array is a list. Arrays are list-like objects whose prototype has methods to perform traversal and mutation operations. 
-- Examples:
- - 
+## `Array`
+
+. . .
+
+### [Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Methods_2)
+
+#### [`Array.prototype.pop`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
+
+* _params:_ none
+* _returns:_ the last element
+* _side-effects_: removes the element returned
+
+##### Examples
+
 ### Length
 
 ### Array.prototype methods
