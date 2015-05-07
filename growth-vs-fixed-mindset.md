@@ -1,10 +1,9 @@
 ---
-
 ---
 
 
 # Growth vs Fixed Mindset
-#### [Essay Outline] (https://www.tacoma.uw.edu/sites/default/files/global/documents/library/essay_outline_worksheet.pdf) 
+[Essay Outline](https://www.tacoma.uw.edu/sites/default/files/global/documents/library/essay_outline_worksheet.pdf) 
 
 ### I. Introduction:
 - What is a fixed and a growth mindset. The now vs the Yet. 
