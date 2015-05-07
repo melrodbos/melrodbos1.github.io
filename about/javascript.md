@@ -50,3 +50,18 @@ addition(3, 6 /* arguments go here */); // yields 9
 addition(4, 7); // yields 11
 addition(3, 18); // yields 21
 ```
+### Typeof
+*The typeof operator determines the type of a given object.*
+- the `typeof` operator is followed by its operand.
+- **Syntax**
+ - type *operand*
+
+- **Parameters**
+ - operand is an expression representing the object or primitive whose type is to be returned.
+- Examples:
+
+ - *Numbers*
+  - `typeof 37 === 'number';`
+  - `typeof 3.14 === 'number';`
+  - `typeof Math.LN2 === 'number';`
+  - `typeof Infinity === 'number'`
