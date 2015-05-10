@@ -1,5 +1,17 @@
-# Reading JavaScript
+# Reading JavaScript 
+[(Mozilla Foundation - JavaScript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
+## Basics
+ - JavaScript is **case-sensitive** and uses the **Unicode** character set. 
+ - Instrucyions are called *statements* and are separasted by a semicolon.
+ - Spaces, tabs and newline characters are called whitespace.
+ - It is recommended to add semicolons at the end of your statements to avoid any "side effects"
+ - Reference about JavaScript's [lexical grammar](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar) 
+
+## Comments
+ - The syntax of **comments** is as follows:
+ 
+ 
 ## Basic literal types 
  - `null.`: Special keyword denoting a null or empty value. It literally means no value. Intentionally empty.
  - `Boolean.`: `true` or `false`. It has exactly two values: true or false. Additional note: We can feed Boolean       numbers. If the numbers are greater than zero, the returned value will be ```True```. If the fed numbers are equal or less than zero, the returned value will be ```False```. (`Boolean` is a *Primitive* value) 
