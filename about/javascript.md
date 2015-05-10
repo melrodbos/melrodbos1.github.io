@@ -44,11 +44,11 @@ Declares a read-only named constant.
  - Because JavaScript is case sensitive, letters include the characters "A" through "Z" (uppercase) and the characters "a" through "z" (lowercase). 
 
 #### Evaluating variables
- - A variable declared using the var or let statement with no initial value specified has the value `undefined`.
+ - A variable declared using the `var` or `let` statement with no initial value specified has the value `undefined`.
   - Examples:
   
    - You can use undefined to determine whether a variable has a value. 
-   - In the following code, the variable input is not assigned a value, and the if statement evaluates to true.
+   - In the following code, the variable input is not assigned a value, and the `if` statement evaluates to true.
 ```
 var input;
 if(input === undefined){
@@ -57,26 +57,36 @@ if(input === undefined){
   doThat();
 }
 ```
-   - The undefined value behaves as false when used in a boolean context. For example, the following code executes the function myFunction because the myArray element is undefined:
+   - The undefined value behaves as false when used in a boolean context. For example, the following code executes the function myFunction because the myArray element is `undefined``:
 ```
 var myArray = [];
 if (!myArray[0]) myFunction();
 ```
-   - The undefined value converts to NaN when used in numeric context.
+   - The undefined value converts to `NaN` when used in numeric context.
 ```
 var a;
 a + 2 = NaN
 ```
-   - When you evaluate a null variable, the null value behaves as 0 in numeric contexts and as false in boolean contexts. For example:
+   - When you evaluate a `null` variable, the `null` value behaves as 0 in numeric contexts and as false in `boolean` contexts. For example:
 ```
 var n = null;
 console.log(n * 32); // Will log 0 to the console
 ```
-
+## Data structures and types
+###Data types
+ - There are seven data types: 
+  - **Six** are *primitives*:  
+   - Boolean: `true` and `false`
+   - null: A keyword denoting a null value
+   - undefined: A top-level property whose value is undefined
+   - Number: 1 or 2.34567
+   - String: "How you doin'"
+   - Symbol: A data type whose instances are unique and immutable
+ - and Object
  
 ### Basic literal types 
- - `null.`: Special keyword denoting a null or empty value. It literally means no value. Intentionally empty.
- - `Boolean.`: `true` or `false`. It has exactly two values: true or false. Additional note: We can feed Boolean       numbers. If the numbers are greater than zero, the returned value will be ```True```. If the fed numbers are equal or less than zero, the returned value will be ```False```. (`Boolean` is a *Primitive* value) 
+ - `null.`: Special keyword denoting a `null` or empty value. It literally means no value. Intentionally empty.
+ - `Boolean.`: `true` or `false`. It has exactly two values: `true` or `false`. **Additional note: We can feed Boolean numbers**. If the numbers are greater than zero, the returned value will be ```True```. If the fed numbers are equal or less than zero, the returned value will be ```False```. (`Boolean` is a *Primitive* value) 
  - `Number.`: A numeric value. In ```JavaScript``` numbers can be written with or without decimals.
  - `String.`: Text. A sequence of characters that are written with quotes. We can use double quotes or single quotes. (Javascript does not care for double or sigle quotes)
 
