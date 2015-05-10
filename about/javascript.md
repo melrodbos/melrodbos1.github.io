@@ -8,7 +8,7 @@
  - It is recommended to add semicolons at the end of your statements to avoid any "side effects"
  - Reference about JavaScript's [lexical grammar](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar) 
 
-## Comments
+### Comments
  - The syntax of **comments** is as follows:
  ```
 // a one line comment
@@ -19,38 +19,36 @@
  
 /* You can't, however, /* nest comments */ SyntaxError */
 ```
-## Declarations
+
+### Declarations
  - There are three kinds of declarations in JavaScript.
-```
+ ```
 *var*
 Declares a variable, optionally initializing it to a value.
 *let*
 Declares a block scope local variable, optionally initializing it to a value.
 *const*
 Declares a read-only named constant.
-```
- - 
- 
-## Basic literal types 
+ ```
+
+### Basic literal types 
  - `null.`: Special keyword denoting a null or empty value. It literally means no value. Intentionally empty.
  - `Boolean.`: `true` or `false`. It has exactly two values: true or false. Additional note: We can feed Boolean       numbers. If the numbers are greater than zero, the returned value will be ```True```. If the fed numbers are equal or less than zero, the returned value will be ```False```. (`Boolean` is a *Primitive* value) 
  - `Number.`: A numeric value. In ```JavaScript``` numbers can be written with or without decimals.
  - `String.`: Text. A sequence of characters that are written with quotes. We can use double quotes or single quotes. (Javascript does not care for double or sigle quotes)
 
-## Special Constants
+### Special Constants
  - `Infinity`: Numeric value representing infinity. It has infinite values.
  - `NaN`: Not-a-Number. [A value that can not be represented.] (https://developer.mozilla.org/en-US/search?q=Nan+meaning)
  - `undefined`: Is a top level property whose value is [undefined] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Basics). 
 
 ## Basic Operators 
-
 ### Arithmetic
   - `+`: Unary plus operator. It attempts to convert the operand to a number, if it is not already.
   - `-`: Unary negation operator. Returns the negation of the operand.
   - `%`: Remainder. Binary operator. returns the integer remainder of dividing the two operands.
   - `++`: Unary operator. Adds one to its operand. If used as a prefix operator (++x), returns the value of its operand after adding one; if used as a postfix operator (x++), returns the value of its operand before adding one.
   - `--`: Unary operator. Subtracts one from its operand. 
-
 ### Comparison
  - `<`: Less than operator. Returns true if the left operand is less than the right operand.
  - `>`: Greater than operator. Returns true if the left operand is greater than the right operand.
@@ -60,12 +58,10 @@ Declares a read-only named constant.
  - `!=`: Not equal. Returns true if the operands are not equal.
  - `!==`: Strict not equal. Returns true if the operands are not equal and/or not of the same type.
  - `===`: Strict equal. Returns true if the operands are equal and of the same type.
-
 ### Assignment
 - *"An assignment operator assigns a value to its left operand based on the value of its right operand. The simple assignment operator is equal (=), which assigns the value of its right operand to its left operand. That is, x = y assigns the value of y to x."*
   - `=`: 
   - `+=`: 
-
 ### JavaScript Functions
 *JavaScript functions are defined with the function keyword.* 
  - Example: Reference: (https://gist.github.com/2f0c3f39d0e5677395d3)
@@ -81,7 +77,6 @@ addition(3, 6 /* arguments go here */); // yields 9
 addition(4, 7); // yields 11
 addition(3, 18); // yields 21
 ```
-
 ### Typeof
 *The typeof operator determines the type of a given object.*
 - the `typeof` operator is followed by its operand.
