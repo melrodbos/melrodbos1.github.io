@@ -10,7 +10,26 @@
 
 ## Comments
  - The syntax of **comments** is as follows:
+ ```
+// a one line comment
  
+/* this is a longer, 
+   multi-line comment
+ */
+ 
+/* You can't, however, /* nest comments */ SyntaxError */
+```
+## Declarations
+ - There are three kinds of declarations in JavaScript.
+```
+*var*
+Declares a variable, optionally initializing it to a value.
+*let*
+Declares a block scope local variable, optionally initializing it to a value.
+*const*
+Declares a read-only named constant.
+```
+ - 
  
 ## Basic literal types 
  - `null.`: Special keyword denoting a null or empty value. It literally means no value. Intentionally empty.
