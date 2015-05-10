@@ -25,12 +25,25 @@
  ```
 *var*
 Declares a variable, optionally initializing it to a value.
+
 *let*
 Declares a block scope local variable, optionally initializing it to a value.
+
 *const*
 Declares a read-only named constant.
  ```
 
+### Variables
+ - We use variables as symbolic names for values in your application.
+ - The name of the viariables are callled **identifiers**
+ - A JavaScript identifier must start with:
+  - a letter 
+  - underscore (_), or 
+  - dollar sign ($); 
+  - subsequent characters can also be digits (0-9). 
+ - Because JavaScript is case sensitive, letters include the characters "A" through "Z" (uppercase) and the characters "a" through "z" (lowercase). 
+
+ 
 ### Basic literal types 
  - `null.`: Special keyword denoting a null or empty value. It literally means no value. Intentionally empty.
  - `Boolean.`: `true` or `false`. It has exactly two values: true or false. Additional note: We can feed Boolean       numbers. If the numbers are greater than zero, the returned value will be ```True```. If the fed numbers are equal or less than zero, the returned value will be ```False```. (`Boolean` is a *Primitive* value) 
