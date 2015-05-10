@@ -33,15 +33,45 @@ Declares a block scope local variable, optionally initializing it to a value.
 Declares a read-only named constant.
  ```
 
-### Variables
+#### Variables
  - We use variables as symbolic names for values in your application.
  - The name of the viariables are callled **identifiers**
  - A JavaScript identifier must start with:
   - a letter 
-  - underscore (_), or 
-  - dollar sign ($); 
-  - subsequent characters can also be digits (0-9). 
+  - underscore `_`
+  - dollar sign `$`
+  - subsequent characters can also be digits `0-9` 
  - Because JavaScript is case sensitive, letters include the characters "A" through "Z" (uppercase) and the characters "a" through "z" (lowercase). 
+
+#### Evaluating variables
+ - A variable declared using the var or let statement with no initial value specified has the value `undefined`.
+  - Examples:
+  
+   - You can use undefined to determine whether a variable has a value. 
+   - In the following code, the variable input is not assigned a value, and the if statement evaluates to true.
+```
+var input;
+if(input === undefined){
+  doThis();
+} else {
+  doThat();
+}
+```
+   - The undefined value behaves as false when used in a boolean context. For example, the following code executes the function myFunction because the myArray element is undefined:
+```
+var myArray = [];
+if (!myArray[0]) myFunction();
+```
+   - The undefined value converts to NaN when used in numeric context.
+```
+var a;
+a + 2 = NaN
+```
+   - When you evaluate a null variable, the null value behaves as 0 in numeric contexts and as false in boolean contexts. For example:
+```
+var n = null;
+console.log(n * 32); // Will log 0 to the console
+```
 
  
 ### Basic literal types 
