@@ -259,11 +259,29 @@ new Array(arrayLength)
   - You can set the length property to truncate an array at any time. When you extend an array by changing its length property, the number of actual elements does not increase; for example, if you set length to 3 when it is currently 2, the array still contains only 2 elements. 
   - Thus, the length property says nothing about the number of defined values in the array. 
   - See also [Relationship between length and numerical properties](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Relationship_between_length_and_numerical_properties).
+- **Examples**
+ - Example: *Iterating over an array*
 
+In the following example the array numbers is iterated through by looking at the length property to see how many elements it has. The value in each element is then doubled.
+```
+var numbers = [1, 2, 3, 4, 5];
 
+for (var i = 0; i < numbers.length; i++) {
+  numbers[i] *= 2;
+}
+// numbers is now [2, 4, 6, 8, 10]
+```
+Example: *Shortening an array*
+
+The following example shortens the array statesUS to a length of 50 if the current length is greater than 50.
+```
+if (statesUS.length > 50) {
+  statesUS.length = 50;
+}
+```
 
 ### Array Literals
-- An array literal is a list of zero or more expressions, each of which represents an array element, enclosed in square brackets ([]). 
+- An array literal is a list of zero or more expressions, each of which represents an array element, enclosed in square brackets ([ ]). 
 - When you create an array using an array literal, it is initialized with the specified values as its elements, and its length is set to the number of arguments specified. 
 - Examples:
 ```
@@ -271,7 +289,6 @@ var coffees = ["French Roast", "Colombian", "Kona"];
 ```
 **Note:** An array literal is a type of object initializer. See Using [*Object Initializers*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#Using_object_initializers).
 - Array literals are also Array objects.
-
 ##### Extra commas in array literals
   - You do not have to specify all elements in an array literal. 
   - If you put two commas in a row, the array is created with undefined for the unspecified elements. 
@@ -293,33 +310,45 @@ This array has two elements with values and one empty element (fish[0] is "Lion"
 `var myList = ['home', , 'school', , ];`
   - Understanding the behavior of extra commas is important to understanding JavaScript as a language, however when writing your own code: explicitly declaring the missing elements as undefined will increase your code's clarity and maintainability.
 
-## Length
-### Array Literals
-- An array literal i
+### Non-Experimental Array Methods
+##### Mutator Methods
+They modify the array:
+
+- **Array.prototype.pop()**
+  -Removes the last element from an array and returns that element.
+- **Array.prototype.push()**
+  -Adds one or more elements to the end of an array and returns the new length of the array.
+- **Array.prototype.reverse()**
+  -Reverses the order of the elements of an array in place — the first becomes the last, and the last becomes the first.
+- **Array.prototype.shift()**
+  -Removes the first element from an array and returns that element.
+- **Array.prototype.sort()**
+  -Sorts the elements of an array in place and returns the array.
+- **Array.prototype.splice()**
+  -Adds and/or removes elements from an array.
+- **Array.prototype.unshift()**
+  - Adds one or more elements to the front of an array and returns the new length of the array.
+##### Accessor methods
+They **do not* modify the array and return some representation of the array.
+
+- **Array.prototype.concat()**
+  - Returns a new array comprised of this array joined with other array(s) and/or value(s).
+- **Array.prototype.join()**
+  - Joins all elements of an array into a string.
+- **Array.prototype.slice()**
+  - Extracts a section of an array and returns a new array.
+- **Array.prototype.toString()**
+  - Returns a string representing the array and its elements. Overrides the Object.prototype.toString() method.
+- **Array.prototype.toLocaleString()**
+  - Returns a localized string representing the array and its elements. Overrides the Object.prototype.toLocaleString() method.
+- **Array.prototype.indexOf()**
+  - Returns the first (least) index of an element within the array equal to the specified value, or -1 if none is found.
+- **Array.prototype.lastIndexOf()**
+  - Returns the last (greatest) index of an element within the array equal to the specified value, or -1 if none is found.
 
 
 
 
 
 
-## `Array`
 
-. . .
-
-### [Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Methods_2)
-
-#### [`Array.prototype.pop`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
-
-* _params:_ none
-* _returns:_ the last element
-* _side-effects_: removes the element returned
-
-##### Examples
-
-### Length
-
-### Array.prototype methods
-- `[Array.prototype.pop()]` (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
-*Removes the last element from an array and returns that element.*
-- `[Array.prototype.splice()]` (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
-*Adds and/or removes elements from an array.*
