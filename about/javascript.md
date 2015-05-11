@@ -316,8 +316,47 @@ They modify the array:
 
 - **Array.prototype.pop()**
   - Removes the last element from an array and returns that element.
+  - _params:_ none 
+  - _returns:_ the last element 
+  - _side-effects_: removes the element returned 
+##### Example: Removing the last element of an array
+```
+var myFish = ['angel', 'clown', 'mandarin', 'sturgeon'];
+
+console.log(myFish); // ['angel', 'clown', 'mandarin', 'sturgeon']
+
+var popped = myFish.pop();
+
+console.log(myFish); // ['angel', 'clown', 'mandarin' ] 
+
+console.log(popped); // 'sturgeon'
+```
 - **Array.prototype.push()**
   - Adds one or more elements to the end of an array and returns the new length of the array.
+  - _params:_ `element*N*` 
+  - _returns:_ the new *length* property of the object upon which the method was called. 
+  - _side-effects_: appends values to an array. 
+##### Example: Adding elements to an array
+- The following code creates the sports array containing two elements, then appends two elements to it. The total variable contains the new length of the array.
+```
+var sports = ['soccer', 'baseball'];
+var total = sports.push('football', 'swimming');
+
+console.log(sports); // ['soccer', 'baseball', 'football', 'swimming']
+console.log(total);  // 4
+```
+##### Example: Merging two arrays
+- This example uses apply() to push all elements from a second array.
+```
+var vegetables = ['parsnip', 'potato'];
+var moreVegs = ['celery', 'beetroot'];
+
+// Merge the second array into the first one
+// Equivalent to vegetables.push('celery', 'beetroot');
+Array.prototype.push.apply(vegetables, moreVegs);
+
+console.log(vegetables); // ['parsnip', 'potato', 'celery', 'beetroot']
+```
 - **Array.prototype.reverse()**
   - Reverses the order of the elements of an array in place — the first becomes the last, and the last becomes the first.
 - **Array.prototype.shift()**
