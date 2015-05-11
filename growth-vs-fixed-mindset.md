@@ -104,7 +104,7 @@ ___
 - New information exposure and new (unknown) challenges make people with a fixed mindset retreat and choose a comfortable approach. which by the way sounds familiar.
 
 ___
-## 3. Final Draft towards final read...
+## 3. Final Draft?
 
 What is a fixed mindset? What is a growth mindset? Am I stuck in one mindset? Or is my brain switching from a fixed mindset to a growth mindset periodically? According to Dr. Carol Dwek, a fixed mindset is commonly asossiated to nature, with the *wildly* popular believe (my self partly included for a period of time) that people that perform smartly given new challenges are just naturally born smart to begin with. Now, on the other hand, the concept of a growth mindset expands on the *proven fact* (Dr. Carol Dwek extensive research with students) that people are born with the same learning capabilities and it is by the power of suggestion, positive reinforcement and a nurturing positive attitude towards the unknown, that people thrive. In Dr. Carol Dwek own words ([see video reference here](https://youtu.be/wh0OS4MrN3E)), "a growth mindset is when students believe their abilities can be developed".
 
