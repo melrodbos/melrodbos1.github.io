@@ -388,14 +388,18 @@ They **do not* modify the array and return some representation of the array.
   - Returns the last (greatest) index of an element within the array equal to the specified value, or -1 if none is found.
 
 ## Control flow and error handling
+
 #### Block Statement
 - The most basic statement used to group statements.
 - It is delimited by a pair of curly brackets `{ }`
 - Block statements are commonly used with control flow statements like: `if`, `for`, `while`.
+
 ### Conditional Statements
+
 #### if...else statement
 - Use the if statement to execute a statement if a logical condition is true. 
 - Use the optional else clause to execute a statement if the condition is false.
+
 ##### Example
 ```
 if (condition) {
@@ -406,9 +410,11 @@ if (condition) {
 ```
 - *condition* can be any expression that evaluates to `true` or `false`. 
 - If condition evaluates to true, statement_1 is executed; otherwise, statement_2 is executed. statement_1 and statement_2 can be any statement, including further nested if statements.
+
 #### switch statement
 - It allows a program to evaluate an expression and attempt to match the  expression's value to a case label. 
 - If a match is found, the program executes the associated statement.
+
 ##### Example
 ```
 switch (expression) {
