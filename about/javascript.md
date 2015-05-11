@@ -3,9 +3,9 @@
 
 ## Basics
  - JavaScript is **case-sensitive** and uses the **Unicode** character set. 
- - Instrucyions are called *statements* and are separasted by a semicolon.
- - Spaces, tabs and newline characters are called whitespace.
- - It is recommended to add semicolons at the end of your statements to avoid any "side effects"
+ - Instructions are called *statements* and are separasted by a semicolon `;`.
+ - Spaces, tabs and newline characters are called *whitespace*.
+ - It is recommended to add semicolons `;` at the end of your statements to avoid any "side effects"
  - Reference about JavaScript's [lexical grammar](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar) 
 
 ### Comments
