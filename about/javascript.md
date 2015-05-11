@@ -385,6 +385,49 @@ They **do not* modify the array and return some representation of the array.
 - **Array.prototype.lastIndexOf()**
   - Returns the last (greatest) index of an element within the array equal to the specified value, or -1 if none is found.
 
+## Control flow and error handling
+#### Block Statement
+- The most basic statement used to group statements.
+- It is delimited by a pair of curly brackets `{ }`
+- Block statements are commonly used with control flow statements like: `if`, `for`, `while`.
+### Conditional Statements
+#### if...else statement
+- Use the if statement to execute a statement if a logical condition is true. 
+- Use the optional else clause to execute a statement if the condition is false.
+##### Example
+```
+if (condition) {
+  statement_1;
+} else {
+  statement_2;
+}
+```
+- *condition* can be any expression that evaluates to `true` or `false`. 
+- If condition evaluates to true, statement_1 is executed; otherwise, statement_2 is executed. statement_1 and statement_2 can be any statement, including further nested if statements.
+#### switch statement
+- It allows a program to evaluate an expression and attempt to match the  expression's value to a case label. 
+- If a match is found, the program executes the associated statement.
+##### Example
+```
+switch (expression) {
+  case label_1:
+    statements_1
+    [break;]
+  case label_2:
+    statements_2
+    [break;]
+    ...
+  default:
+    statements_def
+    [break;]
+}
+```
+- The program first looks for a case clause with a label matching the value of expression and then transfers control to that clause, executing the associated statements. 
+- If no matching label is found, the program looks for the optional default clause, and if found, transfers control to that clause, executing the associated statements. 
+- If no default clause is found, the program continues execution at the statement following the end of switch. 
+- By convention, the default clause is the last clause, but it does not need to be so.
+- The optional break statement associated with each case clause ensures that the program breaks out of switch once the matched statement is executed and continues execution at the statement following switch. 
+- If break is omitted, the program continues execution at the next statement in the switch statement.
 
 
 
