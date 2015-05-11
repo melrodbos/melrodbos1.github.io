@@ -112,6 +112,7 @@ console.log(n * 32); // Will log 0 to the console
   - `%`: Remainder. Binary operator. returns the integer remainder of dividing the two operands.
   - `++`: Unary operator. Adds one to its operand. If used as a prefix operator (++x), returns the value of its operand after adding one; if used as a postfix operator (x++), returns the value of its operand before adding one.
   - `--`: Unary operator. Subtracts one from its operand. 
+
 ### Comparison
  - `<`: Less than operator. Returns true if the left operand is less than the right operand.
  - `>`: Greater than operator. Returns true if the left operand is greater than the right operand.
@@ -121,6 +122,7 @@ console.log(n * 32); // Will log 0 to the console
  - `!=`: Not equal. Returns true if the operands are not equal.
  - `!==`: Strict not equal. Returns true if the operands are not equal and/or not of the same type.
  - `===`: Strict equal. Returns true if the operands are equal and of the same type.
+
 ### Assignment
 - *"An assignment operator assigns a value to its left operand based on the value of its right operand. The simple assignment operator is equal (=), which assigns the value of its right operand to its left operand. That is, x = y assigns the value of y to x."*
   - `=`: 
