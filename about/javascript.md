@@ -85,10 +85,20 @@ console.log(n * 32); // Will log 0 to the console
  - and Object
  
 ### Basic literal types 
- - `null.`: Special keyword denoting a `null` or empty value. It literally means no value. Intentionally empty.
- - `Boolean.`: `true` or `false`. It has exactly two values: `true` or `false`. **Additional note: We can feed Boolean numbers**. If the numbers are greater than zero, the returned value will be ```True```. If the fed numbers are equal or less than zero, the returned value will be ```False```. (`Boolean` is a *Primitive* value) 
- - `Number.`: A numeric value. In ```JavaScript``` numbers can be written with or without decimals.
- - `String.`: Text. A sequence of characters that are written with quotes. We can use double quotes or single quotes. (Javascript does not care for double or sigle quotes)
+ - `null.`: Special keyword denoting a `null` or empty value. 
+  - It literally means no value. 
+  - Intentionally empty.
+ - `Boolean.`: `true` or `false`. It has exactly two values: `true` or `false`. 
+  - **Note: We can feed Boolean numbers**. 
+  - If the numbers are greater than zero, the returned value will be ```True```. 
+  - If the fed numbers are equal or less than zero, the returned value will be ```False```. 
+  - (`Boolean` is a *Primitive* value) 
+ - `Number.`: A numeric value. 
+  - In ```JavaScript``` numbers can be written with or without decimals.
+ - `String.`: Text. 
+  - A sequence of characters that are written with quotes. 
+  - We can use double quotes or single quotes. 
+  - (Javascript does not care for double or sigle quotes)
 
 ### Special Constants
  - `Infinity`: Numeric value representing infinity. It has infinite values.
@@ -115,9 +125,10 @@ console.log(n * 32); // Will log 0 to the console
 - *"An assignment operator assigns a value to its left operand based on the value of its right operand. The simple assignment operator is equal (=), which assigns the value of its right operand to its left operand. That is, x = y assigns the value of y to x."*
   - `=`: 
   - `+=`: 
-### JavaScript Functions
-*JavaScript functions are defined with the function keyword.* 
- - Example: Reference: (https://gist.github.com/2f0c3f39d0e5677395d3)
+
+## JavaScript Functions
+*JavaScript functions are defined with the `function` keyword.* 
+ - Example: [Reference](https://gist.github.com/2f0c3f39d0e5677395d3)
  ```
 // function definition
 function addition(a, b /* paramters go here */){
@@ -129,22 +140,101 @@ function addition(a, b /* paramters go here */){
 addition(3, 6 /* arguments go here */); // yields 9
 addition(4, 7); // yields 11
 addition(3, 18); // yields 21
+
+//String Calculator example:
+
+//function definition
+function plus(A, B) {
+  // function body
+  return toNumber(A) + toNumber(B);
+  
+}
+// function invocation
+expect(plus).to.exist;
+expect(plus("zero", "zero")).to.equal(0);
+expect(plus("zero", "one")).to.equal(1);
 ```
-### Typeof
-*The typeof operator determines the type of a given object.*
+
+### typeof
+*The `typeof` operator returns a string indicating the type of the evaluated operand.*
 - the `typeof` operator is followed by its operand.
-- **Syntax**
- - type *operand*
+- **Syntax:**
+ - `typeof` *operand*
 
-- **Parameters**
- - operand is an expression representing the object or primitive whose type is to be returned.
-- Examples:
+- **Parameters:**
+ - *operand* is an expression representing the object or *primitive* whose type is to be returned.
 
- - *Numbers*
-  - `typeof 37 === 'number';`
-  - `typeof 3.14 === 'number';`
-  - `typeof Math.LN2 === 'number';`
-  - `typeof Infinity === 'number'`
+- **Description:**
+ - A summary of possible return values of `typeof`: 
+
+Type | Result
+---- | ------
+Undefined | "undefined
+Null | "object"
+Boolean | "boolean"
+Number | "number"
+String | "string"
+Symbol | "symbol"
+Host object | *Implementation-dependant*
+Function object | "function"
+Any other object | "object"
+
+- **Examples:**
+```
+// Numbers
+typeof 37 === 'number';
+typeof 3.14 === 'number';
+typeof Math.LN2 === 'number';
+typeof Infinity === 'number';
+typeof NaN === 'number'; // Despite being "Not-A-Number"
+typeof Number(1) === 'number'; // but never use this form!
+
+// Strings
+typeof "" === 'string';
+typeof "bla" === 'string';
+typeof (typeof 1) === 'string'; // typeof always return a string
+typeof String("abc") === 'string'; // but never use this form!
+
+
+// Booleans
+typeof true === 'boolean';
+typeof false === 'boolean';
+typeof Boolean(true) === 'boolean'; // but never use this form!
+
+
+// Symbols
+typeof Symbol() === 'symbol'
+typeof Symbol('foo') === 'symbol'
+typeof Symbol.iterator === 'symbol'
+
+
+// Undefined
+typeof undefined === 'undefined';
+typeof blabla === 'undefined'; // an undefined variable
+
+
+// Objects
+typeof {a:1} === 'object';
+
+
+// use Array.isArray or Object.prototype.toString.call
+// to differentiate regular objects from arrays
+typeof [1, 2, 4] === 'object';
+
+typeof new Date() === 'object';
+
+
+// The following is confusing. Don't use!
+typeof new Boolean(true) === 'object'; 
+typeof new Number(1) === 'object'; 
+typeof new String("abc") === 'object';
+
+
+// Functions
+typeof function(){} === 'function';
+typeof class C {} === 'function';
+typeof Math.sin === 'function';
+```
 
 ## `Array`
 
