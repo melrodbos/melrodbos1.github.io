@@ -155,7 +155,7 @@ expect(plus("zero", "zero")).to.equal(0);
 expect(plus("zero", "one")).to.equal(1);
 ```
 
-### typeof
+## typeof
 *The `typeof` operator returns a string indicating the type of the evaluated operand.*
 - the `typeof` operator is followed by its operand.
 - **Syntax:**
@@ -235,6 +235,72 @@ typeof function(){} === 'function';
 typeof class C {} === 'function';
 typeof Math.sin === 'function';
 ```
+
+## Array
+- The JavaScript Array global object is a constructor for arrays, which are high-level, list-like objects.
+### Syntax
+```
+[element0, element1, ..., elementN]
+new Array(element0, element1[, ...[, elementN]])
+new Array(arrayLength)
+```
+#### element*N*
+ - A JavaScript array is initialized with the given elements, except in the case where a single argument is passed to the Array constructor and that argument is a number. (See below.) 
+ - Note that this special case only applies to JavaScript arrays created with the Array constructor, not array literals created with the bracket syntax.
+#### arrayLength
+ - If the only argument passed to the Array constructor is an integer between 0 and 232-1 (inclusive), this returns a new JavaScript array with length set to that number. 
+ - If the argument is any other number, a RangeError exception is thrown.
+##### Array.prototype.length
+ - The length property represents an unsigned, 32-bit integer that specifies the number of elements in an array.
+ - **Syntax** 
+  - `arr.length`
+ - **Description**
+  - The value of the length property is an integer with a positive sign and a value less than 2 to the 32nd power (232).
+  - You can set the length property to truncate an array at any time. When you extend an array by changing its length property, the number of actual elements does not increase; for example, if you set length to 3 when it is currently 2, the array still contains only 2 elements. 
+  - Thus, the length property says nothing about the number of defined values in the array. 
+  - See also [Relationship between length and numerical properties](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Relationship_between_length_and_numerical_properties).
+
+
+
+### Array Literals
+- An array literal is a list of zero or more expressions, each of which represents an array element, enclosed in square brackets ([]). 
+- When you create an array using an array literal, it is initialized with the specified values as its elements, and its length is set to the number of arguments specified. 
+- Examples:
+```
+var coffees = ["French Roast", "Colombian", "Kona"];
+```
+**Note:** An array literal is a type of object initializer. See Using [*Object Initializers*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#Using_object_initializers).
+- Array literals are also Array objects.
+
+##### Extra commas in array literals
+  - You do not have to specify all elements in an array literal. 
+  - If you put two commas in a row, the array is created with undefined for the unspecified elements. 
+  - The following example creates the fish array:
+
+  - `var fish = ["Lion", , "Angel"];`
+This array has two elements with values and one empty element (fish[0] is "Lion", fish[1] is undefined, and fish[2] is "Angel").
+
+  - If you include a trailing comma at the end of the list of elements, the comma is ignored. In the following example, the length of the array is three. There is no myList[3]. 
+  - All other commas in the list indicate a new element. 
+  - (Note: trailing commas can create errors in older browser versions and it is a best practice to remove them.)
+
+`var myList = ['home', , 'school', ];`
+  - In the following example, the length of the array is four, and myList[0] and myList[2] are missing.
+
+`var myList = [ , 'home', , 'school'];`
+  - In the following example, the length of the array is four, and myList[1] and myList[3] are missing. Only the last comma is ignored.
+
+`var myList = ['home', , 'school', , ];`
+  - Understanding the behavior of extra commas is important to understanding JavaScript as a language, however when writing your own code: explicitly declaring the missing elements as undefined will increase your code's clarity and maintainability.
+
+## Length
+### Array Literals
+- An array literal i
+
+
+
+
+
 
 ## `Array`
 
