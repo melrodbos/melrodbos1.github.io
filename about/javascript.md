@@ -67,9 +67,11 @@ addition(3, 18); // yields 21
   - `typeof Infinity === 'number'`
 
 ### Array
-*An array is a list. Arrays are list-like objects whose prototype has methods to perform traversal and mutation operations. 
+*An array is a list. 
+- Arrays are list-like objects whose prototype has methods to perform traversal and mutation operations. 
 - Examples:
  - 
+ 
 ### Length
 
 ### Array.prototype methods
