@@ -268,6 +268,7 @@ In the following example the array numbers is iterated through by looking at the
 ```
 var numbers = [1, 2, 3, 4, 5];
 
+<<<<<<< HEAD
 for (var i = 0; i < numbers.length; i++) {
   numbers[i] *= 2;
 }
@@ -442,3 +443,18 @@ switch (expression) {
 
 
 
+=======
+### Array
+*An array is a list. 
+- Arrays are list-like objects whose prototype has methods to perform traversal and mutation operations. 
+- Examples:
+ - 
+ 
+### Length
+
+### Array.prototype methods
+- `[Array.prototype.pop()]` (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
+*Removes the last element from an array and returns that element.*
+- `[Array.prototype.splice()]` (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
+*Adds and/or removes elements from an array.*
+>>>>>>> cff361b3d1f5bc7b08f77cef0e17a30048a4bedb
