@@ -102,6 +102,7 @@ ___
 
 - The importance of having the right mindset when exposed to information, especially new information.
 - New information exposure and new (unknown) challenges make people with a fixed mindset retreat and choose a comfortable approach. which by the way sounds familiar.
+- `Note to self: Work on this please!` 
 
 ___
 ## 3. Final Draft?
