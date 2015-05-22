@@ -68,3 +68,14 @@
   
    - [`line-height`](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height)
     - Syntax: `line-height: normal;`
+
+#### Pseudo-elements
+- [Pseudo-elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements) allow you to style certain parts of a document. 
+
+##### All pseudo-elements:
+  - [`::after (:after)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::after)
+  - [`::before (:before)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::before)
+  - [`::first-letter (:first-letter)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::first-letter)
+  - [`::first-line (:first-line)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::first-line)
+  - [`::selection`](https://developer.mozilla.org/en-US/docs/Web/CSS/::selection)
+  - [`::backdrop`](https://developer.mozilla.org/en-US/docs/Web/CSS/::backdrop)
