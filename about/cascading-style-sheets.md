@@ -40,3 +40,13 @@
     - Syntax: `background-position: top;`
    - [`border-top-width`](https://developer.mozilla.org/en-US/docs/Web/CSS/border-top-width)
     - Syntax: `border-top-width: 10em;` 
+   - [`box-sizing`](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing)
+    - Formal Syntax: `content-box | padding-box | border-box`
+   - [`padding`](https://developer.mozilla.org/en-US/docs/Web/CSS/padding)
+    - Syntax: `padding: 1em;` 
+   - [`margin`](https://developer.mozilla.org/en-US/docs/Web/CSS/margin)
+    - Syntax: `margin: 5% auto;` 
+   - [`max-height`](https://developer.mozilla.org/en-US/docs/Web/CSS/max-height)
+    - Syntax: `max-height: 3.5em;`
+   - [`min-height`](https://developer.mozilla.org/en-US/docs/Web/CSS/min-height)
+    - Syntax: `min-height: fit-content;`
