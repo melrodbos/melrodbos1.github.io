@@ -60,3 +60,11 @@
    - [`min-height`](https://developer.mozilla.org/en-US/docs/Web/CSS/min-height)
     - Syntax: `min-height: fit-content;`
     
+   - [`font-size`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-size)
+    - Syntax: `font-size: xx-small;`
+  
+   - [`text-align`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-align)
+    - Syntax: `text-align: justify-all;`
+  
+   - [`line-height`](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height)
+    - Syntax: `line-height: normal;`
