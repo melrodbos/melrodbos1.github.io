@@ -44,7 +44,9 @@
             ![Alt text](http://www.w3.org/TR/css3-flexbox/images/align-content-example.svg) Image-[CSS Tricks](https://css-tricks.com/almanac/properties/a/align-content/)
 
    - [`background-color:`](https://developer.mozilla.org/en-US/docs/Web/CSS/background-color)
-    - Syntax: `background-color: red;`
+    - Syntax: `background-color: red;`: This property sets the background color of an element, either through a color value or the keyword transparent.
+    - Values:
+      - **color**: It describes the uniform color of the background. Evan if one or several background-image properties are defined, this color can affect the rendering, by transparency if the images aren't opaque. *In CSS, the `transparent` value is a color.*
     
    - [`background-repeat:`](https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat)
     - Syntax: `background-repeat: repeat;`
