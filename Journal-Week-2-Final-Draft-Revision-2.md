@@ -5,7 +5,7 @@ After two weeks of religiously devoting myself to unknown disciplines (Git, Gith
 On our second week at the Front End Engineering program, we were introduced to the Model View Controller (MVC) pattern, which involves the use of three folders: 
   - **Model**: This folder would include a javaScript file with our declared functions
   - **View**: This one includes our HTML file
-  - **Controller**: This folder includes a javaScript file with the actions and events that will comunicate with our model and our view folders.
+  - **Controller**: This folder includes a javaScript file with the actions and events that will communicate with our model and our view folders.
 
 I think I understand the MVC structure but I am still struggling with my very limited javaScript knowledge. I have established a plan to tackle as much Javascript practice this weekend as possible. I will start by completing the JavaScript training courses from the Code Academy and I will also review Code School's JavaScript course. Meanwhile, I'll be practicing coding the Todo List from our past assignments. 
 
