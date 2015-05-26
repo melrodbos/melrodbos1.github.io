@@ -89,7 +89,8 @@
    
    - [`z-index`](https://developer.mozilla.org/en-US/docs/Web/CSS/z-index) 
    
-   
+   - [`white-space`](https://developer.mozilla.org/en-US/docs/Web/CSS/white-space)
+    - Syntax: `white-space: nowrap;`: This property describes how whitespace inside the element is handled.
 
 #### Pseudo-elements
 - [Pseudo-elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements) allow you to style certain parts of a document. 
