@@ -80,6 +80,16 @@
   
    - [`line-height`](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height)
     - Syntax: `line-height: normal;`
+    
+   - [`@media`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media)
+
+   - [`@font-face`](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face)
+   
+   - [`inherit`](https://developer.mozilla.org/en-US/docs/Web/CSS/inherit)
+   
+   - [`z-index`](https://developer.mozilla.org/en-US/docs/Web/CSS/z-index) 
+   
+   
 
 #### Pseudo-elements
 - [Pseudo-elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements) allow you to style certain parts of a document. 
