@@ -4,8 +4,9 @@
   - [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
   - [Headway101](https://headway101.com/html-css-and-php-explained-an-introduction-to-internet-coding-basics/)
   - [Code Academy](http://www.codecademy.com/glossary/css/properties)
+  - [CSS-Tricks](https://css-tricks.com/almanac/properties/a/align-content/)
   - Book: **HTML & CSS Design and Build Websites** by John Duckett
-- What is CSS? 
+- **What is CSS?** 
   - CSS stands for *Cascading Style Sheets
   - Css styles the content of the page that HTML displays. In other words, with CSS we create rules to specify how content should be seen on a web page. 
   - A CSS rule consists of two parts: 
@@ -30,11 +31,22 @@
   - Properties will always have a value, even when its value is `none`.
 
 ##### Examples of properties:
-   - [`align-content:`](https://developer.mozilla.org/en-US/docs/Web/CSS/align-content)
+   - [`align-content:`](https://developer.mozilla.org/en-US/docs/Web/CSS/align-content):This property is a sub-property of the [*Flexible Box Layout*](http://css-tricks.com/snippets/css/a-guide-to-flexbox/) module. It helps aligning a flex container's lines within it when there is extra space in the cross-axis. It is important to note that this property has no effect when the flexbox has only a single line.
+  
     - Syntax: `align-content: center;`
-    
+    - Values: 
+      - **flex-start**: Lines are packed starting from the cross-start. Cross-start edge of the first line and cross-start edge of the flex container are flushed together. Each following line is flush with the preceding.
+      - **flex-end**: Lines are packed starting from the cross-end. Cross-end of the last line and cross-end of the flex container are flushed together. Each preceding line is flushed with the following line.
+      - **center**: Lines are packed toward the center of the flex container. The lines are flushed with each other and aligned in the center of the flex container. Space between the cross-start edge of the flex container and first line and between cross-end of the flex container and the last line is the same.
+      - **space-between**: Lines are evenly distributed in the flex container. The spacing is done such as the space between two adjacent items is the same. Cross-start edge and cross-end edge of the flex container are flushed with respectively first and last line edges.
+      - **space-around**: Lines are evenly distributed so that the space between two adjacent lines is the same. The empty space before the first and after the last lines equals half of the space between two adjacent lines.
+      - **stretch**: Lines stretch to use the remaining space. The free-space is split equally between all the lines.
+            ![Alt text](http://www.w3.org/TR/css3-flexbox/images/align-content-example.svg) Image-[CSS Tricks](https://css-tricks.com/almanac/properties/a/align-content/)
+
    - [`background-color:`](https://developer.mozilla.org/en-US/docs/Web/CSS/background-color)
-    - Syntax: `background-color: red;`
+    - Syntax: `background-color: red;`: This property sets the background color of an element, either through a color value or the keyword transparent.
+    - Values:
+      - **color**: It describes the uniform color of the background. Evan if one or several background-image properties are defined, this color can affect the rendering, by transparency if the images aren't opaque. *In CSS, the `transparent` value is a color.*
     
    - [`background-repeat:`](https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat)
     - Syntax: `background-repeat: repeat;`
@@ -68,6 +80,17 @@
   
    - [`line-height`](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height)
     - Syntax: `line-height: normal;`
+    
+   - [`@media`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media)
+
+   - [`@font-face`](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face)
+   
+   - [`inherit`](https://developer.mozilla.org/en-US/docs/Web/CSS/inherit)
+   
+   - [`z-index`](https://developer.mozilla.org/en-US/docs/Web/CSS/z-index) 
+   
+   - [`white-space`](https://developer.mozilla.org/en-US/docs/Web/CSS/white-space)
+    - Syntax: `white-space: nowrap;`: This property describes how whitespace inside the element is handled.
 
 #### Pseudo-elements
 - [Pseudo-elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements) allow you to style certain parts of a document. 
