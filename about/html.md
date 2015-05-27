@@ -45,15 +45,22 @@
         
     A. **Tags**
       - Tags are enclosed by angle brackets, and the closing tag begins with a forward slash.
+      - Tags are labels that define and separate parts of your markup into elements.
       - Elements include two matching tags and everything in between. For example, the "<p>" element indicates a paragraph; the "<img>" element indicates an image.
       - There is *start* tag and a *closing* tag.
-      - For example:
+      - **Sintax**:
+        - `<tag attribute='value'>content</tag keyword>`
+      - Examples:
       ```
+      <title> HTML Glossary </title>
+      
       <em> I <strong>NEED</strong>to learn this!</em>
       ```
-      - 
+      
     B. **Attributes**
-      - `**Boolean attributes**`
+      - `*class`: 
+      - `id`:
+      - `href`:
 
     
   
