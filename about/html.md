@@ -53,27 +53,27 @@
         - `<input>`: It is used to create interactive controls for web-based forms in order to accept data from the user. The semantics of an <input> varies considerably depending on the value of its type attribute.
         - `<label>`: The HTML Label Element (<label>) represents a caption for an item in a user interface. It can be associated with a control either by placing the control element inside the <label> element, or by using the for attribute. Such a control is called the labeled control of the label element.
         - `<button>`: It represents a clickable button.
-        - `<select>`: It represents a control that presents a menu of options. The options within the menu are represented by <option> elements, which can be grouped by <optgroup> elements. Options can be pre-selected for the user.
-        - `<option>`: It is used to create a control representing an item within a <select>, an <optgroup> or a <datalist> HTML5 element.
+        - `<select>`: It represents a control that presents a menu of options. The options within the menu are represented by <option> elements, which can be grouped by <optgroup> elements. 
         - `<textarea>`: It represents a multi-line plain-text editing control.
-        
-    A. **Tags**
-      - Tags are enclosed by angle brackets, and the closing tag begins with a forward slash.
-      - Tags are labels that define and separate parts of your markup into elements.
-      - Elements include two matching tags and everything in between. For example, the "<p>" element indicates a paragraph; the "<img>" element indicates an image.
-      - There is *start* tag and a *closing* tag.
-      - **Sintax**:
-        - `<tag attribute='value'>content</tag keyword>`
-      - Examples:
+        - `<option>`: It is used to create a control representing an item within a <select>, an <optgroup> or a <datalist> HTML5 element.
+      
+  - **Tags**
+    - Tags are enclosed by angle brackets, and the closing tag begins with a forward slash.
+    - Tags are labels that define and separate parts of your markup into elements.
+    - Elements include two matching tags and everything in between. For example, the "<p>" element indicates a paragraph; the "<img>" element indicates an image.
+    - There is *start* tag and a *closing* tag.
+    - **Sintax**:
+      - `<tag attribute='value'>content</tag keyword>`
+    - Examples:
       ```
       <title> HTML Glossary </title>
       
       <em> I <strong>NEED</strong>to learn this!</em>
       ```
       
-    B. **Attributes**
-      - Attributes include the additional inormation in a tag. 
-      - They usually consist of 2 parts: `Name` and `Value`.
+  - **Attributes**
+    - Attributes include the additional inormation in a tag. 
+    - They usually consist of 2 parts: `Name` and `Value`.
       
     [**Global Attributes**](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes): 
       - `class`: Used with CSS to style elements with common properties.
