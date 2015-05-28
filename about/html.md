@@ -30,7 +30,7 @@
       - Block-level elements may appear only within a <body> element.
       - By default, block-level elements begin on new lines.
       
-      - List of HTML block-level elements:
+      - **List of HTML block-level elements**:
         - `<address>`: Contact information.
         - `<article> `: Article content.
         - `<aside>`: Aside content.
@@ -47,6 +47,15 @@
         - `<fieldset>` Field set label.
         - `<figcaption>` HTML Figure caption.
         - `<form>`: Input form.
+        
+      - **List of HTML elements**:
+        - `<legend>`: The HTML <legend> Element (or HTML Legend Field Element) represents a caption for the content of its parent `<fieldset>`.
+        - `<input>`: It is used to create interactive controls for web-based forms in order to accept data from the user. The semantics of an <input> varies considerably depending on the value of its type attribute.
+        - `<label>`: The HTML Label Element (<label>) represents a caption for an item in a user interface. It can be associated with a control either by placing the control element inside the <label> element, or by using the for attribute. Such a control is called the labeled control of the label element.
+        - `<button>`: It represents a clickable button.
+        - `<select>`: It represents a control that presents a menu of options. The options within the menu are represented by <option> elements, which can be grouped by <optgroup> elements. Options can be pre-selected for the user.
+        - `<option>`: It is used to create a control representing an item within a <select>, an <optgroup> or a <datalist> HTML5 element.
+        - `<textarea>`: It represents a multi-line plain-text editing control.
         
     A. **Tags**
       - Tags are enclosed by angle brackets, and the closing tag begins with a forward slash.
@@ -65,11 +74,12 @@
     B. **Attributes**
       - Attributes include the additional inormation in a tag. 
       - They usually consist of 2 parts: `Name` and `Value`.
-      [**Global Attributes**](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes): 
-        - `class`: Used with CSS to style elements with common properties.
-        - `id`: Often used with CSS to style a specific element. Its value is unique, meaning that ids cannot be repeated in an html document.
-        - `hidden`:
-        - `title`: Contains a text representing advisory information related to the element it belongs to. 
+      
+    [**Global Attributes**](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes): 
+      - `class`: Used with CSS to style elements with common properties.
+      - `id`: Often used with CSS to style a specific element. Its value is unique, meaning that ids cannot be repeated in an html document.
+      - `hidden`:
+      - `title`: Contains a text representing advisory information related to the element it belongs to. 
 
     
   
