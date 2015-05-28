@@ -57,7 +57,7 @@
         - `<textarea>`: It represents a multi-line plain-text editing control.
         - `<option>`: It is used to create a control representing an item within a <select>, an <optgroup> or a <datalist> HTML5 element.
       
-  - **Tags**
+    - **Tags**:
     - Tags are enclosed by angle brackets, and the closing tag begins with a forward slash.
     - Tags are labels that define and separate parts of your markup into elements.
     - Elements include two matching tags and everything in between. For example, the "<p>" element indicates a paragraph; the "<img>" element indicates an image.
