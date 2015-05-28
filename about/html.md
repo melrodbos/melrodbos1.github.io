@@ -12,7 +12,7 @@
 - HTML Structure:
 - Image from *HTML & CSS Design and Build Websites* by John Duckett:
 - ![Image of html structure](http://www.htmlandcssbook.com/images/sample-chapter/medium/dps-5.jpg)
-    1. [**HTML Elements**]( 
+    1. [**HTML Elements**](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) 
       - HTML uses a pre-defined set of elements to define content types. 
       - Elements contain one or more "tags" that contain or express content:
        ![Anatomy of an HTML Element](https://mdn.mozillademos.org/files/7659/anatomy-of-an-html-element.png)
@@ -30,7 +30,7 @@
       - Block-level elements may appear only within a <body> element.
       - By default, block-level elements begin on new lines.
       
-      - List of HTML block elements:
+      - List of HTML block-level elements:
         - `<address>`: Contact information.
         - `<article> `: Article content.
         - `<aside>`: Aside content.
@@ -39,9 +39,14 @@
         - `<canvas>`: Drawing canvas.
         - `<dd>`: Definition description.
         - `<div>`: Document division.
-        - `<dl>`: Definition List.
+        - `<dl>`: Definition List. 
+          - Encloses a list of pairs of terms and descriptions. Common uses for this element are to implement a glossary or to display metadata.
+          - Includes [global atributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes).
+        - `<ol>`: Ordered list.
+        - `<ul>`: Unordered list.
         - `<fieldset>` Field set label.
         - `<figcaption>` HTML Figure caption.
+        - `<form>`: Input form.
         
     A. **Tags**
       - Tags are enclosed by angle brackets, and the closing tag begins with a forward slash.
@@ -58,9 +63,13 @@
       ```
       
     B. **Attributes**
-      - `*class`: 
-      - `id`:
-      - `href`:
+      - Attributes include the additional inormation in a tag. 
+      - They usually consist of 2 parts: `Name` and `Value`.
+      [**Global Attributes**](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes): 
+        - `class`: Used with CSS to style elements with common properties.
+        - `id`: Often used with CSS to style a specific element. Its value is unique, meaning that ids cannot be repeated in an html document.
+        - `hidden`:
+        - `title`: Contains a text representing advisory information related to the element it belongs to. 
 
     
   
