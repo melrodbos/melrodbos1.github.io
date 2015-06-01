@@ -58,11 +58,42 @@
         - `<option>`: It is used to create a control representing an item within a `<select>`, an `<optgroup>` or a `<datalist>` HTML5 element.
         
 #### Tags
+>
       1. Tags are enclosed by angle brackets, and the closing tag begins with a forward slash.
       2. Tags are labels that define and separate parts of your markup into elements.
-      3. Elements include two matching tags and everything in between. For example, the "`<p>`" element indicates a paragraph; the "`<img>`" element indicates an image.
+      3. Elements include two matching tags and everything in between. For example, the `<p>` element indicates a paragraph; the `<img>` element indicates an image.
       4. There is *start* tag and a *closing* tag.
+>
+- **Sintax**:
+      - `<tag attribute='value'>content</tag keyword>`
+    - Examples:
 
+      ```
+      <title> HTML Glossary </title>
+
+      <em> I <strong>NEED</strong>to learn this!</em>
+      ```
+
+  - **Attributes**
+    - Attributes include the additional inormation in a tag. 
+    - They usually consist of 2 parts: `Name` and `Value`.
+
+  - [**Global Attributes**](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes): 
+    - `class`: Used with CSS to style elements with common properties.
+    - `id`: Often used with CSS to style a specific element. Its value is unique, meaning that ids cannot be repeated in an html document.
+    - `hidden`:
+    - `title`: Contains a text representing advisory information related to the element it belongs to. 
+
+* [x] **Reading HTML**
+  * [ ] come to the `<table>`
+  * [ ] no one ever reads the `<caption>`
+  * [ ] `<col>` waiting? I got `<colgroup>`!
+  * [ ] you've got a nice `<tbody>`
+  * [ ] but don't let it go to your `<thead>`
+  * [ ] shot in the `<tfoot>`
+  * [ ] `<tr>` coffee?
+  * [ ] `<td>` or not `<td>`?
+  * [ ] that would be `<th>`
 
 
     
