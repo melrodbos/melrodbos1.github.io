@@ -53,9 +53,16 @@
         - `<input>`: It is used to create interactive controls for web-based forms in order to accept data from the user. The semantics of an <input> varies considerably depending on the value of its type attribute.
         - `<label>`: The HTML Label Element (<label>) represents a caption for an item in a user interface. It can be associated with a control either by placing the control element inside the <label> element, or by using the for attribute. Such a control is called the labeled control of the label element.
         - `<button>`: It represents a clickable button.
-        - `<select>`: It represents a control that presents a menu of options. The options within the menu are represented by <option> elements, which can be grouped by <optgroup> elements. 
+        - `<select>`: It represents a control that presents a menu of options. The options within the menu are represented by `<option>` elements, which can be grouped by `<optgroup>` elements. 
         - `<textarea>`: It represents a multi-line plain-text editing control.
-        - `<option>`: It is used to create a control representing an item within a <select>, an <optgroup> or a <datalist> HTML5 element.
+        - `<option>`: It is used to create a control representing an item within a `<select>`, an `<optgroup>` or a `<datalist>` HTML5 element.
+        
+#### Tags
+      1. Tags are enclosed by angle brackets, and the closing tag begins with a forward slash.
+      2. Tags are labels that define and separate parts of your markup into elements.
+      3. Elements include two matching tags and everything in between. For example, the "`<p>`" element indicates a paragraph; the "`<img>`" element indicates an image.
+      4. There is *start* tag and a *closing* tag.
+
 
 
     
