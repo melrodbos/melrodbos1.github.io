@@ -1,0 +1,19 @@
+{
+  "name": "melrodbos.github.io",
+  "version": "0.0.0",
+  "description": "remodeling",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melrodbos/melrodbos.github.io.git"
+  },
+  "author": "Melissa Rodriguez <m.rodriguez.bosques@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/melrodbos/melrodbos.github.io/issues"
+  },
+  "homepage": "https://github.com/melrodbos/melrodbos.github.io#readme"
+}

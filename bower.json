@@ -1,0 +1,17 @@
+{
+  "name": "melrodbos.github.io",
+  "version": "0.0.0",
+  "homepage": "https://github.com/melrodbos/melrodbos.github.io",
+  "authors": [
+    "Melissa Rodríguez <m.rodriguez.bosques@gmail.com>"
+  ],
+  "description": "remodeling",
+  "license": "CC0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
