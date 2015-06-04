@@ -1,12 +1,11 @@
 {
   "name": "melrodbos.github.io",
-  "version": "0.0.0",
-  "description": "remodeling",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "browser-sync start --server --directory --files='index.html, css/**/*.css, js/**/*.js'"
-  },
+   "version": "0.0.0",
+    "description": "--- permalink: index.html ---",
+    "main": "index.js",
+    "scripts": {
+        "start": "browser-sync start --server --files='index.html, css/,js/*.js'"
+    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/melrodbos/melrodbos.github.io.git"
