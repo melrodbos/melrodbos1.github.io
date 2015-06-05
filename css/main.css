@@ -10,10 +10,15 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+/* Fonts */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
 html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
 
 /*
@@ -94,8 +99,74 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* Adding backgroud image*/
+header{
+  background: url('../specs/01-hashtag-active.jpg') no-repeat top center;
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  color:#fff;
+}
 
+/* Nav */
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 10px 15px;
+}
 
+nav ul li a{
+  color:#fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all .2s ease;
+}
+
+nav ul li a:hover{
+  color: #FFE11A;
+}
+
+/* Latest Post */
+
+#latest_post{
+  margin-top: 170px;
+}
+
+#latest_post h2{
+  font-size: 34px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#latest_post p{
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+span.post_time{
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+span.post_date{
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* Dividers */
+
+.divider{
+  width: 50px;
+  height: 1px;
+  margin:20px 0;
+}
+
+.divider.white{
+  background-color: #fff;
+}
 
 
 
