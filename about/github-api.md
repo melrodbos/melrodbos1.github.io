@@ -1,9 +1,16 @@
-### Reading APIs
+### Reading APIs (Application Programming Interface)
 
-- [ ] **How does the API handle authentication?**
-- [ ] **Do I need to authenticate?**
-- [ ] **What can I do with an unauthenticated request?**
-- [ ] **How can I authenticate my request? (3 ways)**
+- An API is a set of routines, protocols and tools for building software appliactions. 
+
+**How does the API handle authentication?**
+  - There are three ways to authenticate through Github API.
+  - Requests that require authentication will return: `404 Not Found`, instead of `403 Forbidden`, in some places. *This is to prevent the accidental leakege of private repos to unauthorized users.* 
+**Do I need to authenticate?**
+  - 
+**What can I do with an unauthenticated request?**
+
+**How can I authenticate my request? (3 ways)**
+ 
 
 #### How do I ask the API for...:
 
