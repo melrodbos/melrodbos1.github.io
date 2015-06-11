@@ -1,4 +1,4 @@
-Reflective- Journal- Week 5
+Reflective Journal Week 5, Final Draft
 
 So I have officially drowned in a waterless pool. Week five was something to remember. We started our week with an introduction to the Github API. What was intended to be our review week became more of a stress builder than anything else. Futile attempts to complete old assignments in order to move forward with the new material while working on a new project is not ideal. But lets just stick to our trade and leave Utopia to Tomás Moro.
 
