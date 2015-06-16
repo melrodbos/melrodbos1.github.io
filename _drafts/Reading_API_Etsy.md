@@ -1,4 +1,4 @@
-* [ ] **Reading APIs: Etsy**
+**Reading APIs: Etsy**
   * [ ] How do I make API requests?
     * [ ] What is the base URL?
 https://openapi.etsy.com/v2
@@ -6,7 +6,7 @@ https://openapi.etsy.com/v2
 api key-based parameter
     * [ ] What kind of response should I expect?
 Each API response is wrapped in a standard structure that holds the results of the API call, plus metadata about the request:
-
+```
 {
      "count":integer,
      "results": [
@@ -15,6 +15,7 @@ Each API response is wrapped in a standard structure that holds the results of t
      "params": { parameters },
      "type":result type
 }
+```
 
 count specifies the total number of results available for this call, which may be more than the number of results returned in this request. For example, if count is 1000, you can page through the results in blocks of 100 by specifying limit=100&offset=0, where offset is a multiple of 100 up to 900. See Pagination below.
 
@@ -35,8 +36,10 @@ The Etsy API requires an application key that is provided during app registratio
     * [ ] A list of products belonging to a specific category or collection?
 https://openapi.etsy.com/v2/listings/:listing_id
     * [ ] Details about a specific product? What details are provided?
+ 
 
     * [ ] The main and additional images for a product?
+ Image uploads can be performed using a POST request with the Content-Type: multipart/form-dataheader, following RFC1867. This is identical to using curl -F, except that that request needs to be signed using OAuth.   
 
   * [ ] Is there a limit to the number of requests I can make?
 Using public (api key-based) authentication, clients are allowed 10,000 requests per 24-hour period, with a limit of 10 queries per second.
