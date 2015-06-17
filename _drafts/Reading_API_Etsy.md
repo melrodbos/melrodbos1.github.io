@@ -52,3 +52,38 @@ if you hit a rate limit, you'll only need to wait for at most two more hours in 
     * [ ] How can I ask for more (or less) data from a request?
 
     * [ ] How do I know that there is more data available?
+    
+ What Resource in the API represents...
+* an individual product?
+A listing in the field location
+```/v2/listings/active?fields=listings_id
+```
+* a group or collection of products
+Shops or sections, categories
+
+images associated with a product?
+getImage_listing in the URL
+```/listings/:listing_id/images/:listing_image_id
+```
+
+sizes and colors for a product?
+it is represented by variations. Ex
+```/v2/listings/:listing_id/variations
+
+What would be returned
+
+variations=[
+    {"property_id":200, "value":"Black", "is_available":true, "price": 100},
+    {"property_id":200, "value":"White", "is_available":true, "price": 110}
+]
+
+```
+
+What actions and endpoints exist for each of these Resources?
+
+What parameters do each endpoint require or accept?
+What fields are returned for each Resource, specifically:
+an individual product?
+a group or collection of products?
+What additional fields can be requested for each?
+What is a Taxonomy Resource?
