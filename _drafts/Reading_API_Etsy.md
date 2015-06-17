@@ -32,7 +32,9 @@ Yes.
     * [ ] What can I do with an unauthenticated request?
 
     * [ ] How can I authenticate my request?
-The Etsy API requires an application key that is provided during app registration. The key identifies your application to the Etsy web service, and is used to track overall call usage. It's passed using the standard api_key parameter.  * [ ] How do I ask the API for...
+The Etsy API requires an application key that is provided during app registration. The key identifies your application to the Etsy web service, and is used to track overall call usage. It's passed using the standard api_key parameter.  
+
+* [ ] How do I ask the API for...
     * [ ] A list of products belonging to a specific category or collection?
 https://openapi.etsy.com/v2/listings/:listing_id
     * [ ] Details about a specific product? What details are provided?
