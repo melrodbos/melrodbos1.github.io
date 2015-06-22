@@ -13,13 +13,7 @@
 /* Fonts */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
-html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
-    font-family: 'Open Sans', sans-serif;
-    -webkit-font-smoothing: antialiased;
-}
+
 
 /*
  * Remove text-shadow in selection highlight:
@@ -100,8 +94,17 @@ textarea {
    Author's custom styles
    ========================================================================== */
 /* Adding backgroud image*/
+body {
+    color: #fff;
+    font-size: 1em;
+    line-height: 1.4;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
 header{
   background: url('../specs/01-hashtag-active.jpg') no-repeat top center;
+  opacity: 4;
   width: 100%;
   height: 700px;
   background-size: cover;
@@ -159,7 +162,7 @@ span.post_date{
 /* Dividers */
 
 .divider{
-  width: 50px;
+  width: 30px;
   height: 1px;
   margin:20px 0;
 }
