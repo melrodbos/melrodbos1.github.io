@@ -128,7 +128,6 @@ nav ul li a:hover{
 }
 
 /* Latest Post */
-
 #latest_post{
   margin-top: 170px;
 }
@@ -157,7 +156,6 @@ span.post_date{
 }
 
 /* Dividers */
-
 .divider{
   width: 50px;
   height: 1px;
@@ -167,16 +165,6 @@ span.post_date{
 .divider.white{
   background-color: #fff;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
