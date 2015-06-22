@@ -101,7 +101,7 @@ textarea {
    ========================================================================== */
 /* Adding backgroud image*/
 header{
-  background: url('../specs/01-hashtag-active.jpg') no-repeat top center;
+  background: url('https://download.unsplash.com/10/mason-jars.jpg') no-repeat top center;
   width: 100%;
   height: 700px;
   background-size: cover;
@@ -130,7 +130,7 @@ nav ul li a:hover{
 /* Latest Post */
 
 #latest_post{
-  margin-top: 170px;
+  margin-top: 250px;
 }
 
 #latest_post h2{
